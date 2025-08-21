@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+. /usr/share/debconf/confmodule
+
+db_get helloman/username
+USERNAME="$RET"
+
+echo "$USERNAME!" > /tmp/hello_man.conf

@@ -1,0 +1,5 @@
+#!/bin/sh
+. /usr/share/debconf/confmodule
+
+db_input high helloman/username || true
+db_go

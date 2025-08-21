@@ -1,0 +1,5 @@
+Template: helloman/username
+Type: string
+Default: 
+Description: Please enter your name:
+ This name will be used to generate a config file.
