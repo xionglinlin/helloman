@@ -1,0 +1,8 @@
+helloman (1.0.0) unstable; urgency=medium
+
+  * Initial release of HelloMan
+  * Simple Qt6 desktop application
+  * Added desktop file and icon
+  * Basic window functionality
+
+ -- Developer <developer@example.com>  Mon, 01 Jan 2024 12:00:00 +0800 

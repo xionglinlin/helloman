@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=HelloMan
+Name[zh_CN]=HelloMan
+Comment=A simple Qt6 desktop application
+Comment[zh_CN]=一个简单的 Qt6 桌面应用程序
+Exec=/usr/bin/helloman
+Icon=helloman
+Terminal=false
+StartupNotify=true

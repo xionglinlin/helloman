@@ -1,0 +1,22 @@
+Source: helloman
+Section: utils
+Priority: optional
+Maintainer: Developer <developer@example.com>
+Build-Depends: debhelper-compat (= 13),
+               cmake (>= 3.19),
+               qt6-base-dev (>= 6.5),
+               qt6-base-dev-tools,
+               libqt6core6,
+               libqt6widgets6
+Standards-Version: 4.6.0
+Homepage: https://github.com/example/helloman
+
+Package: helloman
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A simple Qt6 desktop application
+ HelloMan is a simple desktop application built with Qt6.
+ It demonstrates basic Qt6 application structure and can be
+ used as a starting point for Qt6 desktop applications.
+ .
+ This package contains the main application executable. 
