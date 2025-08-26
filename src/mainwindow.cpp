@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // 读取文件内容
     QString name = "...";
-    QFile file("/tmp/hello_man.conf");
+    QFile file("/etc/hello_man.conf");
     if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         QTextStream in(&file);
         QString line = in.readLine();

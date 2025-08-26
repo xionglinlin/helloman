@@ -5,4 +5,4 @@ set -e
 db_get helloman/username
 USERNAME="$RET"
 
-echo "$USERNAME!" > /tmp/hello_man.conf
+echo "$USERNAME!" > /etc/hello_man.conf
