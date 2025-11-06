@@ -70,7 +70,9 @@ sudo apt-get install -f  # 解决可能的依赖问题
 - 包含完整的版权声明和许可证文本
 - 符合 Debian 版权格式标准
 
-### 用户交互配置
+### 用户交互配置(debconf)
+
+> **[debconf说明文档见此](./debconf.md)**
 
 #### config 文件
 `debian/config` 是 debconf 配置脚本，用于安装时与用户交互：
@@ -79,7 +81,7 @@ sudo apt-get install -f  # 解决可能的依赖问题
 - 为后续配置文件生成提供数据
 
 #### templates 文件  
-`debian/templates` 定义了 debconf 的问题模板：
+`debian/templates` 定义了 [debconf](./debconf.md) 的问题模板,
 - 定义了 `helloman/username` 模板
 - 设置问题类型为字符串输入
 - 提供用户友好的问题描述
